@@ -1,0 +1,19 @@
+version = 1
+
+[[analyzers]]
+name = "javascript"
+
+  [analyzers.meta]
+  plugins = [
+    "react",
+    "vue"
+  ]
+  environment = [
+    "nodejs",
+    "jest",
+    "cypress",
+    "vitest"
+  ]
+
+[[analyzers]]
+name = "shell"
